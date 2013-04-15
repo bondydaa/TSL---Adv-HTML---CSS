@@ -22,6 +22,7 @@ header {
 }
 
 footer {
+	display: 							inline;
 	border-radius: 				10px 0px 0px 10px;
 	right: 								0;
 	position: 						absolute;
@@ -31,16 +32,15 @@ footer {
 }
 
 nav {
-	margin: 							5px;
-
-	left:									70%;
+	background-color: 		yellow;
+	
 	position: 						relative;
 }
 
 .head-foot{
 	background-color:			#FF4500;
 	color: 								#F5FFFA;
-	
+	list-style-type: 			none;
 }
 
 .selected, a:hover {
