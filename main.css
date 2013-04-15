@@ -1,32 +1,20 @@
+/*
+colors:
+#F5FFFA - off white
+#003399 - blue
+#FF7D4D - light orange
+#FF4500 - orange
+ */
+
 body {
 	background-color:			#F5FFFA;
 	font-family: 					Helvetica, sans-serif;
 	color: 								#003399;
 }
 
-.pages-header {
-	padding: 							0px 25px;
-	height: 							75px;
-	background-color: 		#FF4500;
-	border-radius: 				10px;
+.head-foot{
+	background-color:			#FF4500;
 	color: 								#F5FFFA;
-}
-
-.logo {
-	float: 								left;
-}
-
-.pages-nav {
-	float: 								right;
-
-	margin:								15px 0px;
-}
-
-.nav-list li{
-	list-style-type: 			none;
-	display: 							inline;
-	margin: 							4px;
-
 }
 
 .selected, a:hover {
@@ -49,44 +37,14 @@ body {
 
 a:link{
 	text-decoration: 			none;
+	color:								#F5FFFA;
 }
 
 a:visited{
 	color:								#F5FFFA;
 }
 
-.sidebar {
-	float: 								right;
-	clear: 								both;
-	width: 								350px;
-	margin: 							10px 20px;
-}
-
-.main {
-	clear: 								left;
-}
-/*
-.section-name {
-	border:								#FF4500 solid 1px;
-	border-radius: 				5px;
-	width: 								11%;
-	text-align: 					center;
-	padding: 							0px;
-}
-*/
-.pages-footer {
-	font-size: 						12px;
-
-	text-align: 					center;
-	background-color: 		#FF4500;
-
-	border-radius: 				15px;
-
-	clear: 								right;
-
-	color: 								#F5FFFA;
-}
-
+/* Experiments Styles */
 .alert {
 	display: 							block;
 	width: 								400px;
