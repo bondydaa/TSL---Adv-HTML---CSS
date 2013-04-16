@@ -12,16 +12,35 @@ body {
 	color: 								#003399;
 }
 
-header {
+.primary{
+	background-color:			#FF4500;
+	color: 								#F5FFFA;
+}
+
+.primary li{
+	display:							inline;
+	list-style-type: 			none;
+}
+
+.nav {
+	float: 								left;
+	position: 						relative;
+	left: 								700px;
+	
+}
+
+.head {
 	border-radius: 				0px 10px 10px 0px; 
 	margin:								0px;
 	width:								75%;
 	height:								75px;
-	left: 								0;
+	float:								left;
 	position: 						absolute;
+	left: 								0;
+	top: 									5px;
 }
 
-footer {
+.foot {
 	display: 							inline;
 	border-radius: 				10px 0px 0px 10px;
 	right: 								0;
@@ -29,19 +48,10 @@ footer {
 
 	width: 								75%;
 	height: 							50px;
+
+	bottom: 							5px;
 }
 
-nav {
-	background-color: 		yellow;
-	
-	position: 						relative;
-}
-
-.head-foot{
-	background-color:			#FF4500;
-	color: 								#F5FFFA;
-	list-style-type: 			none;
-}
 
 .selected, a:hover {
 	background-color: 		#FF7D4D;
@@ -70,6 +80,19 @@ a:visited{
 	color:								#F5FFFA;
 }
 
+.clearfix:before,
+.clearfix:after {
+	content:							"";
+	display:							table;
+}
+
+.clearfix:after {
+	clear:								both;
+}
+
+.clearfix {
+	*zoom:								1;
+}
 
 
 /* Experiments Styles */
