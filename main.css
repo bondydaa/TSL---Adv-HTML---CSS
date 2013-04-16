@@ -15,18 +15,16 @@ body {
 .primary{
 	background-color:			#FF4500;
 	color: 								#F5FFFA;
+	list-style: 					none;
 }
 
 .primary li{
 	display:							inline;
-	list-style-type: 			none;
 }
 
 .nav {
-	float: 								left;
+	float: 								right;
 	position: 						relative;
-	left: 								700px;
-	
 }
 
 .head {
@@ -80,17 +78,17 @@ a:visited{
 	color:								#F5FFFA;
 }
 
-.clearfix:before,
-.clearfix:after {
+.group:before,
+.group:after {
 	content:							"";
 	display:							table;
 }
 
-.clearfix:after {
+.group:after {
 	clear:								both;
 }
 
-.clearfix {
+.group {
 	*zoom:								1;
 }
 
