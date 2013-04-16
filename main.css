@@ -36,7 +36,9 @@ body {
 	margin:								0px;
 	width:								75%;
 	height:								75px;
+	
 	float:								left;
+
 	position: 						relative;
 	top: 									5px;
 
@@ -46,17 +48,21 @@ body {
 	display: 							inline;
 	border-radius: 				10px 0px 0px 10px;
 
-	position: 						absolute;
-	bottom: 							5px;
-	right: 								0;
+	position: 						relative;
 
 	width: 								75%;
 	height: 							50px;
+
+	float:								right;
 }
 
 .main {
 	clear: 								both;
 
+
+}
+
+.col1 {
 	width:								300px;
 
 	position: 						relative;
@@ -69,7 +75,22 @@ body {
 	border-bottom-style: 	none;
 
 	text-align: 					center;
+}
 
+.col2 {
+	width:								300px;
+
+	position: 						relative;
+	top: 									-225px;
+	left:									400px;
+
+	margin: 							10px;
+	padding: 							5px;
+	border:								solid 1px #003399;
+	border-top-style: 		none;
+	border-bottom-style: 	none;
+
+	text-align: 					center;
 }
 
 .resume-jobs{
