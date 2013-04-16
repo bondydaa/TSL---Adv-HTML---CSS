@@ -20,11 +20,14 @@ body {
 
 .primary li{
 	display:							inline;
+	padding: 							5px;
 }
 
 .nav {
 	float: 								right;
 	position: 						relative;
+	top: 									-60px;
+	margin: 							0 7px;
 }
 
 .head {
@@ -36,6 +39,7 @@ body {
 	position: 						absolute;
 	left: 								0;
 	top: 									5px;
+
 }
 
 .foot {
@@ -54,7 +58,7 @@ body {
 .selected, a:hover {
 	background-color: 		#FF7D4D;
 	border-radius: 				5px;
-	padding: 							4px;
+
 }
 
 .resume {
