@@ -58,6 +58,7 @@ body {
 
 .main {
 	clear: 								both;
+	margin: 							10px;
 
 
 }
@@ -100,9 +101,6 @@ body {
 
 	position: 						relative;
 	top: 									10px;
-
-
-
 }
 
 .resume-jobs{
