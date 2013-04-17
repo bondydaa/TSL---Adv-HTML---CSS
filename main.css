@@ -204,6 +204,9 @@ a:link{
 /*Tool Tips */
 .tooltip {
 	position: 						absolute;
+	top: 									250px;
+	right: 								25px;
+
 	background-color: 		black;
 
 
