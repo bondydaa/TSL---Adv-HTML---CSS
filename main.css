@@ -119,6 +119,10 @@ a:link{
 	color:								#F5FFFA;
 }
 
+a:visited {
+	color:								#003399;
+}
+
 .primary a:visited{
 	color:								#F5FFFA;
 }
@@ -203,13 +207,18 @@ a:link{
 
 /*Tool Tips */
 .tooltip {
-	position: 						absolute;
-	top: 									250px;
-	right: 								25px;
+	display: 							none;
 
 	background-color: 		black;
+	border-radius: 				5px;
 
 
+}
+
+a:hover .tooltip{
+	display: 		inline;
+	position: 	absolute;
+	top: 				400px;
 }
 
 
