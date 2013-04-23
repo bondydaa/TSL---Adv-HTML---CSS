@@ -69,8 +69,6 @@ body {
 	background-color:			#FF4500;
 	color: 								#F5FFFA;
 	list-style: 					none;
-	top: 									2%;
-	right:								2%;
 }
 
 .primary li{
@@ -79,11 +77,10 @@ body {
 }
 
 .nav {
-/*	float: 								right;*/
-	position: 						absolute;
-
-
-	/*margin: 							0 7px;*/
+	float:								right;
+	position: 						relative;
+	top:									2%;
+	right:								5%;
 }
 
 .head {
