@@ -190,57 +190,11 @@ body {
 	float:								right;
 }
 
-
-/*.logo {
-	margin:								2%;
-}*/
-
-.main {
-	clear: 								both;
-	margin: 							10px;
-
-
+.blog p:nth-of-type(n+2) {
+	text-indent: 					4em;
 }
 
-.col1 {
-	float: 								left;
-	width:								300px;
 
-	position: 						relative;
-	top: 									25px;
-
-	margin: 							10px;
-	padding: 							5px;
-
-
-	text-align: 					center;
-}
-
-.col2 {
-	float: 								left;
-	width:								300px;
-
-	position: 						relative;
-	top:									25px;
-
-	margin: 							10px;
-	padding: 							5px;
-
-	text-align: 					center;
-}
-
-.col3 {
-	float: 								right;
-
-	width:								70%;
-
-	margin:								10px;
-	padding: 							5px;
-
-
-	position: 						relative;
-	top: 									10px;
-}
 
 .resume-jobs{
 	color:								#FF4500;
