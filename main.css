@@ -194,6 +194,11 @@ body {
 	text-indent: 					4em;
 }
 
+a[href^='https']:after {
+	content: 							url("12x16 Lock.png");
+	padding-left: 				2px;
+}
+
 
 
 .resume-jobs{
