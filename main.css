@@ -68,6 +68,7 @@ table {
 
 /* Reusable column setup */
 .col {
+		position: relative;
     border:0px solid rgba(0,0,0,0);
     float:left;
     -webkit-box-sizing:border-box;
@@ -78,6 +79,31 @@ table {
     background-clip:padding-box !important;
 }
 
+.col2 {
+		position: relative;
+		left: 21.4444444444%;
+    border:0px solid rgba(0,0,0,0);
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-background-clip:padding-box !important;
+    -webkit-background-clip:padding-box !important;
+    background-clip:padding-box !important;
+}
+
+.col3 {
+		position: relative;
+		left: 32.6666666667%;
+    border:0px solid rgba(0,0,0,0);
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-background-clip:padding-box !important;
+    -webkit-background-clip:padding-box !important;
+    background-clip:padding-box !important;
+}
 
 
     /* 1. 9 Column Grid 0px - Infinity 
@@ -150,6 +176,7 @@ table {
 
 body {
 	background-color:			#F5FFFA;
+	background-image: 		url("grid-0_to_infinity.png");
 	font-family: 					'Noto Sans', Helvetica, sans-serif;
 	color: 								#003399;
 	margin: 							0px;
