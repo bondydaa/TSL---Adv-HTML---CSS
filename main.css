@@ -153,6 +153,7 @@ body {
 	font-family: 					'Noto Sans', Helvetica, sans-serif;
 	color: 								#003399;
 	margin: 							0px;
+	line-height: 					1.2em;
 }
 
 .primary{
@@ -194,7 +195,7 @@ body {
 	text-indent: 					4em;
 }
 
-a[href^='https']:after {
+.container a[href^='https']:after {
 	content: 							url("12x16 Lock.png");
 	padding-left: 				2px;
 }
