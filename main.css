@@ -353,18 +353,15 @@ a:visited {
 .tooltip {
 	display: 							none;
 
-	position: 						relative;
-
 	background-color: 		black;
 	border-radius: 				5px;
 
-
 }
 
-.tooltip a:hover {
+a:hover .tooltip {
 	display: 		inline;
-	position: 	absolute;
-	top: 				5%;
+	position: 	relative;
+	top: 				-20px;
 }
 
 
