@@ -218,6 +218,10 @@ body {
 	float:								right;
 }
 
+.relative {
+	position: 						relative;
+}
+
 .articles {
 	float:								right;
 	position: 						relative;
@@ -228,15 +232,10 @@ body {
 	text-indent: 					4em;
 }
 
-.container a[href^='https']:after {
-	content: 							url("sprites.png");
-	background-position: 	-6px 0;
-/*	width: 								12px;
-	height:								16px;*/
+a[href^='https']:after {
+	content: 							url("images/lock.png");
 	padding-left: 				2px;
 }
-
-
 
 .resume-jobs{
 	color:								#FF4500;
@@ -273,7 +272,7 @@ a:visited {
 /*clearfix*/
 .group:before,
 .group:after {
-	content:							"";
+	content:							" ";
 	display:							table;
 }
 
@@ -356,11 +355,14 @@ a:visited {
 	background-color: 		black;
 	border-radius: 				5px;
 
+	padding:							2px;
+
+	color:								white;
 }
 
 a:hover .tooltip {
 	display: 		inline;
-	position: 	relative;
+	position: 	absolute;
 	top: 				-20px;
 }
 
