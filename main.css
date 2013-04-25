@@ -176,7 +176,7 @@ table {
 
 body {
 	background-color:			#F5FFFA;
-	background-image: 		url("grid-0_to_infinity.png");
+	/*background-image: 		url("grid-0_to_infinity.png");*/
 	font-family: 					'Noto Sans', Helvetica, sans-serif;
 	color: 								#003399;
 	margin: 							0px;
@@ -218,12 +218,21 @@ body {
 	float:								right;
 }
 
+.articles {
+	float:								right;
+	position: 						relative;
+	top:									10.683761%; /*75px / 702px*/
+}
+
 .blog p:nth-of-type(n+2) {
 	text-indent: 					4em;
 }
 
 .container a[href^='https']:after {
-	content: 							url("12x16 Lock.png");
+	content: 							url("sprites.png");
+	background-position: 	-6px 0;
+/*	width: 								12px;
+	height:								16px;*/
 	padding-left: 				2px;
 }
 
@@ -281,6 +290,8 @@ a:visited {
 .alert {
 	display: 							block;
 
+	position: 						relative;
+
 	width: 								400px;
 
 	margin: 							5px;
@@ -293,6 +304,13 @@ a:visited {
 	border-radius: 				10px;
 
 	color: 								#F5FFFA;
+}
+
+.alert:after {
+	content:							url("images/close.png");
+	position:							absolute;
+	right:								0;
+	padding:						 	0 1%;
 }
 
 .information {
@@ -335,16 +353,18 @@ a:visited {
 .tooltip {
 	display: 							none;
 
+	position: 						relative;
+
 	background-color: 		black;
 	border-radius: 				5px;
 
 
 }
 
-a:hover .tooltip{
+.tooltip a:hover {
 	display: 		inline;
 	position: 	absolute;
-	top: 				400px;
+	top: 				5%;
 }
 
 
