@@ -64,6 +64,14 @@ body {
 	background-color:			orange;
 }
 
+h1 {
+	font-size: 						1.8em;
+}
+
+h2 {
+	font-size: 						1.6em;
+}
+
 .container {
 	margin:								2% auto;
 	max-width: 						1000px;
@@ -104,12 +112,23 @@ body {
 	float:								right;
 }
 
-.nav li, .aboutlinks li{
+.nav li, .aboutlinks li {
 	list-style: 					none;
 	display:							inline;
 }
 
+.resume h3 {
+	font-size: 					1.6em;
+	font-weight: 				bold;
+}
 
+.resume h4 {
+	font-size: 					1.4em;
+}
+
+.resume h5 {
+	font-size: 					1.5em;
+}
 
 /*clearfix*/
 .group:before,
