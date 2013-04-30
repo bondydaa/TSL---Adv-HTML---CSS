@@ -65,14 +65,54 @@ body {
 }
 
 .container {
-	margin:								0 auto;
+	margin:								2% auto;
 	max-width: 						1000px;
+	position: 						relative;
+}
+
+.primary {
+	color:								red;
+
+	background-color: 		black;
+
+	position:							relative;
+	width: 								100%;
+}
+
+.primary a:visited, a:link {
+	color:								red;
+	text-decoration: 			none;
+}
+
+.head {
+	font-size: 						2.4em;
+}
+
+.foot {
+	font-size: 						1em;
+	text-align: 					center;
+}
+
+.foot li {
+	list-style: 					none;
+	display: 							inline;
+	margin: 							1% 2%;
+}
+
+
+.nav {
+	float:								right;
+}
+
+.nav li{
+	list-style: 					none;
+	display:							inline;
 }
 
 /*clearfix*/
 .group:before,
 .group:after {
-	content:							" ";
+	content:							"";
 	display:							table;
 }
 
