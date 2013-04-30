@@ -104,10 +104,12 @@ body {
 	float:								right;
 }
 
-.nav li{
+.nav li, .aboutlinks li{
 	list-style: 					none;
 	display:							inline;
 }
+
+
 
 /*clearfix*/
 .group:before,
