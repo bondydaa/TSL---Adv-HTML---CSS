@@ -131,7 +131,20 @@ h2 {
 	font-size: 					1.2em;
 }
 
-.resume
+.resume h3 ~ h4 {
+	position: 					relative;
+	left: 							1em;
+}
+
+.resume h4 ~ h5 {
+	position: 					relative;
+	left: 							2em;
+}
+
+.resume ul {
+	position: 					relative;
+	left:								3em;
+}
 
 /*clearfix*/
 .group:before,
