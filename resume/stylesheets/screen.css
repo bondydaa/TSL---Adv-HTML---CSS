@@ -71,7 +71,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
   font-size: 62.5%;
   font-family: "Noto Sans" Sans-Serif;
-  line-height: 1.5em;
+  line-height: 1.5;
   background: url("../../lightwool.png") repeat;
   background-color: #34495e;
   margin-bottom: 0.5em;
@@ -237,4 +237,11 @@ footer li:active, footer li:focus {
 /* line 109, ../sass/screen.sass */
 footer a:link {
   text-decoration: none;
+}
+
+@media screen and (max-width: 630px) {
+  /* line 113, ../sass/screen.sass */
+  body {
+    font-size: 40%;
+  }
 }
