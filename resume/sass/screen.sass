@@ -62,6 +62,10 @@ header
 	margin: 1%
 	max-width: 90% /* shame */
 
+.resumeDate
+	position: relative
+	right: 0
+
 h2
 	font-size: 3em
 
@@ -95,3 +99,12 @@ h4 ~ h5, h4 + p
 
 h5 + p, h3 ~ ul
 	@include indent(4.8em)
+
+footer
+	font-size: .8em
+	text-align: center
+	li
+		display: inline
+		+unstyled-link
+	a:link
+		text-decoration: none
