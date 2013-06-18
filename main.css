@@ -1,248 +1,35 @@
-/*
-colors:
-#F5FFFA - off white
-#003399 - blue
-#FF7D4D - light orange
-#FF4500 - orange
- */
+/*Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/*   v2.0 | 20110126 */
+/*   License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
-/*Reset*/
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+  display: block; }
+
 body {
-	line-height: 1;
-}
+  line-height: 1; }
+
 ol, ul {
-	list-style: none;
-}
+  list-style: none; }
+
 blockquote, q {
-	quotes: none;
-}
+  quotes: none; }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
-}
+  content: "";
+  content: none; }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-body {
-	font-size:						62.5%;
-	font-family: 					'Noto Sans' Sans-Serif;
-	line-height: 					1.2;
-	background:						url('lightwool.png') repeat;
-	background-color:			orange;
-	margin-bottom: 				.5em;
-}
-
-h1 {
-	font-size: 						1.8em;
-}
-
-h2 {
-	font-size: 						1.6em;
-}
-
-.container {
-	margin:								2% auto;
-	max-width: 						1000px;
-	position: 						relative;
-}
-
-.primary {
-	color:								red;
-
-	background-color: 		black;
-
-	position:							relative;
-	width: 								100%;
-}
-
-.primary a:visited, a:link {
-	color:								red;
-	text-decoration: 			none;
-}
-
-.head {
-	font-size: 						2.4em;
-}
-
-.foot {
-	font-size: 						1em;
-	text-align: 					center;
-}
-
-.foot li {
-	list-style: 					none;
-	display: 							inline;
-	margin: 							1% 2%;
-}
-
-
-.nav {
-	float:								right;
-}
-
-.nav li, .aboutlinks li {
-	list-style: 					none;
-	display:							inline;
-}
-
-.resume h3 {
-	font-size: 					1.6em;
-	font-weight: 				bold;
-}
-
-.resume h4 {
-	font-size: 					1.4em;
-}
-
-.resume h5 {
-	font-size: 					1.2em;
-}
-
-.resume h3 ~ h4 {
-	position: 					relative;
-	left: 							1em;
-}
-
-.resume h4 ~ h5 {
-	position: 					relative;
-	left: 							2em;
-}
-
-.resume ul {
-	position: 					relative;
-	left:								3em;
-}
-
-
-
-/*clearfix*/
-.group:before,
-.group:after {
-	content:							"";
-	display:							table;
-}
-
-.group:after {
-	clear:								both;
-}
-
-.group {
-	*zoom:								1;
-}
-
-
-/* Alert Styles */
-.alert {
-	display: 							block;
-
-	position: 						relative;
-
-	width: 								400px;
-
-	margin: 							5px;
-
-	text-align: 					center;
-	font-size: 						20px;
-
-	padding:							10px;
-
-	border-radius: 				10px;
-
-	color: 								#F5FFFA;
-}
-
-.alert:after {
-	content:							url("images/close.png");
-	position:							absolute;
-	right:								0;
-	padding:						 	0 1%;
-}
-
-.information {
-	background-color: 		#7AB2E3;
-	border:								#E9F7F8 solid 2px;
-}
-
-.success {
-	background-color: 		#5BD75B;
-	border:								#32CD32;
-}
-
-.warning {
-	background-color: 		#FFDB19;
-	border:								#FFD700 solid 2px; 
-}
-
-.error {
-	background-color: 		#FF0000;
-	border:								#E60000 solid 2px;
-}
-
-.large {
-	width: 								600px;
-	font-size: 						30px;
-	font-weight: 					bold;
-}
-
-.small {
-	width:								300px;
-	font-size: 						12px;
-}
-
-.mini {
-	width:								200px;
-	font-size:						9px;
-}
-
-/*Tool Tips */
-.tooltip {
-	display: 							none;
-
-	background-color: 		black;
-	border-radius: 				5px;
-
-	padding:							2px;
-
-	color:								white;
-}
-
-a:hover .tooltip {
-	display: 		inline;
-	position: 	absolute;
-	top: 				-20px;
-}
-
-
+  border-collapse: collapse;
+  border-spacing: 0; }
