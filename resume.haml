@@ -2,40 +2,31 @@
 %html
 	%head
 		%link(href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic' rel='stylesheet' type='text/css')
-		%script(type='text/javascript' src='scripts/modernizr.js')
 		%meta(charset='utf-8')
 		%title
 			BondydaaDotCom
 		%link(rel='stylesheet' type='text/css' href='stylesheets/screen.css')
+		%script(type='text/javascript' src='scripts/modernizr.js')
 	%body
 		%header
-			%h1(class='logo')
-				Bondydaa
-			.nav
-				%ul
-					%a(href='index.html')
-						%li Home
-					%a(class='selected' href='resume.html')
-						%li About
-					%a(href='index.html')
-						%li Blog
-					%a(href='index.html')
-						%li Experiments							
+			.headcontainer
+				%h1(class='logo')
+					Bondydaa
+				.nav
+					%ul
+						%li
+							%a(href='https://github.com/bondydaa' target='blank') Github
+						%li
+							%a(href='http://www.linkedin.com/pub/david-bondy/7/209/25b' target='blank') Linkedin
+						%li
+							%a(href='https://www.twitter.com/DavidBondy' target='blank') Twitter							
 		.container
-			%section(class='socialLinks')
-				%ul
-					%li
-						%a(href='http://www.linkedin.com/pub/david-bondy/7/209/25b' target="blank") Linkedin
-					%li
-						%a(href='https://www.facebook.com/bondydaa' target="blank") Facebook
-					%li
-						%a(href='https://www.twitter.com/DavidBondy' target='blank') Twitter
 			%section(class='resume')	
 				%h2 Resume
 				%h3 Education
-				%h4 The Starter League<span class='resumeDate'>Spring Quarter 2013</span>
+				%h4 The Starter League<span class='resumeDate'> Spring Quarter 2013</span>
 				%p Advance HTML & CSS
-				%h4 Unversity of Dayton<span class='resumeDate'>May 2010</span>
+				%h4 Unversity of Dayton<span class='resumeDate'> May 2010</span>
 				%p Major: Bachelor of Fine Art Photography, English Minor
 				%h3 Skills
 				%ul

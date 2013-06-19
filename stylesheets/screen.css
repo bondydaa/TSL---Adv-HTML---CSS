@@ -72,36 +72,43 @@ body {
   font-size: 62.5%;
   font-family: "Noto Sans" Sans-Serif;
   line-height: 1.5;
-  background: url("../../lightwool.png") repeat;
+  background: url("../lightwool.png") repeat;
   background-color: #34495e;
   margin-bottom: 0.5em;
+  color: #ecf0f1;
 }
 
-/* line 18, ../sass/screen.sass */
+/* line 19, ../sass/screen.sass */
 header {
   background: #2ecc71;
   width: 100%;
-  height: 4em;
-  position: relative;
+  height: 50px;
 }
 
 /* line 24, ../sass/screen.sass */
-.logo {
-  font-size: 3.6em;
-  float: left;
-  margin: 0.5em;
+.headcontainer {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 /* line 29, ../sass/screen.sass */
-.nav {
-  font-size: 1.4em;
-  padding: 1em;
+.logo {
+  font-size: 3.6em;
   position: absolute;
-  right: 9em;
-  bottom: 0.2em;
+  left: 0;
 }
+
 /* line 35, ../sass/screen.sass */
+.nav {
+  font-size: 1.6em;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+/* line 40, ../sass/screen.sass */
 .nav li {
+  margin: 1em auto;
   display: inline;
   color: inherit;
   text-decoration: inherit;
@@ -111,59 +118,50 @@ header {
 .nav li:active, .nav li:focus {
   outline: none;
 }
-/* line 38, ../sass/screen.sass */
+/* line 44, ../sass/screen.sass */
+.nav a {
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+}
+/* line 46, ../sass/screen.sass */
 .nav a:link {
   text-decoration: none;
+  color: #ecf0f1;
+}
+/* line 49, ../sass/screen.sass */
+.nav a:visited {
+  color: #ecf0f1;
+}
+/* line 51, ../sass/screen.sass */
+.nav a:hover {
+  color: #767878;
 }
 
-/* line 41, ../sass/screen.sass */
+/* line 54, ../sass/screen.sass */
 .container {
   position: relative;
   clear: both;
   line-height: 2.5em;
   margin: 1% auto;
   width: 100%;
-  max-width: 1000px;
-  border: 2px solid black;
+  max-width: 900px;
+  background-color: #e74c3c;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   border-radius: 10px;
-}
-
-/* line 51, ../sass/screen.sass */
-.socialLinks {
-  text-align: center;
-  font-size: 1.8em;
-  padding: 1.5em;
-}
-/* line 55, ../sass/screen.sass */
-.socialLinks li {
-  display: inline;
-  color: inherit;
-  text-decoration: inherit;
-  cursor: inherit;
-}
-/* line 6, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
-.socialLinks li:active, .socialLinks li:focus {
-  outline: none;
-}
-/* line 58, ../sass/screen.sass */
-.socialLinks a:link {
-  text-decoration: none;
-}
-
-/* line 61, ../sass/screen.sass */
-.resume {
-  margin: 1%;
-  max-width: 90%;
+  -webkit-box-shadow: inset 0px 0px 10px #b83c30;
+  -moz-box-shadow: inset 0px 0px 10px #b83c30;
+  box-shadow: inset 0px 0px 10px #b83c30;
 }
 
 /* line 65, ../sass/screen.sass */
-.resumeDate {
-  position: relative;
-  right: 0;
+.resume {
+  margin: 1%;
+  padding: 2%;
 }
 
 /* line 69, ../sass/screen.sass */
@@ -174,53 +172,52 @@ h2 {
 /* line 72, ../sass/screen.sass */
 h3 {
   font-size: 2.4em;
+  color: #f1c40f;
 }
 
-/* line 75, ../sass/screen.sass */
+/* line 76, ../sass/screen.sass */
 h4 {
   font-size: 2em;
-  color: red;
 }
 
 /* line 79, ../sass/screen.sass */
 h5 {
   font-size: 1.8em;
-  color: orange;
 }
 
-/* line 83, ../sass/screen.sass */
+/* line 82, ../sass/screen.sass */
 p, li {
   font-size: 1.4em;
-  color: blue;
 }
 
-/* line 90, ../sass/screen.sass */
+/* line 85, ../sass/screen.sass */
 h2 ~ h3 {
-  padding-left: 1.2em;
+  padding-left: 5%;
 }
 
-/* line 93, ../sass/screen.sass */
+/* line 88, ../sass/screen.sass */
 h3 ~ h4 {
-  padding-left: 1.8em;
+  padding-left: 7%;
 }
 
-/* line 96, ../sass/screen.sass */
-h4 ~ h5, h4 + p {
-  padding-left: 3em;
+/* line 91, ../sass/screen.sass */
+h4 ~ h5 {
+  padding-left: 9%;
 }
 
-/* line 99, ../sass/screen.sass */
-h5 + p, h3 ~ ul {
-  padding-left: 4.8em;
+/* line 94, ../sass/screen.sass */
+h5 + p, h4 + p, h3 ~ ul {
+  padding-left: 11%;
 }
 
-/* line 102, ../sass/screen.sass */
+/* line 97, ../sass/screen.sass */
 footer {
   font-size: 0.8em;
   text-align: center;
 }
-/* line 105, ../sass/screen.sass */
+/* line 100, ../sass/screen.sass */
 footer li {
+  margin: 1.1em;
   display: inline;
   color: inherit;
   text-decoration: inherit;
@@ -230,14 +227,45 @@ footer li {
 footer li:active, footer li:focus {
   outline: none;
 }
-/* line 108, ../sass/screen.sass */
+/* line 104, ../sass/screen.sass */
 footer a:link {
   text-decoration: none;
+  color: #ecf0f1;
+}
+/* line 107, ../sass/screen.sass */
+footer a:visited {
+  color: #ecf0f1;
 }
 
 @media screen and (max-width: 630px) {
   /* line 112, ../sass/screen.sass */
   body {
-    font-size: 40%;
+    font-size: 55%;
+    background-image: none;
+    background-color: #e74c3c;
+  }
+
+  /* line 117, ../sass/screen.sass */
+  .container {
+    margin: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  /* line 122, ../sass/screen.sass */
+  .logo {
+    position: relative;
+    padding: 0 1%;
+  }
+
+  /* line 126, ../sass/screen.sass */
+  .nav {
+    padding: 0 1%;
   }
 }
