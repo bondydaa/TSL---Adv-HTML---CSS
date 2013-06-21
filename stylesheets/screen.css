@@ -238,14 +238,14 @@ footer a:visited {
 }
 
 @media screen and (max-width: 630px) {
-  /* line 112, ../sass/screen.sass */
+  /* line 114, ../sass/screen.sass */
   body {
     font-size: 55%;
     background-image: none;
     background-color: #e74c3c;
   }
 
-  /* line 117, ../sass/screen.sass */
+  /* line 119, ../sass/screen.sass */
   .container {
     margin: 0;
     -webkit-border-radius: 0;
@@ -258,13 +258,13 @@ footer a:visited {
     box-shadow: none;
   }
 
-  /* line 122, ../sass/screen.sass */
+  /* line 124, ../sass/screen.sass */
   .logo {
     position: relative;
     padding: 0 1%;
   }
 
-  /* line 126, ../sass/screen.sass */
+  /* line 128, ../sass/screen.sass */
   .nav {
     padding: 0 1%;
   }
